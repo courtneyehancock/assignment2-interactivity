@@ -13,7 +13,7 @@
       <div class="row"> 
         <div class="col-lg-3"> 
           <header> 
-          <h1> <a href="<?php get_home_url();?>"> <?php bloginfo('name');?> </a></h1> 
+          <h1> <a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1> 
           </header> 
         </div> 
       </div> 
