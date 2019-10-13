@@ -1,21 +1,9 @@
 /*
-  Theme Name: Class Code
-  Theme URI:
-  Author: Christie Knudson
-  Description: Tutorial theme to code during class
-   Version: 1.0
-   License: Open
-   Text Domain: class-code
-
+ Theme Name: Web Interactivity & Engagement Theme 
+Theme URI: 
+Author: Courtney Hancock
+Description: This theme is a tutorial theme for the web interactivity and engagement course at University of Florida 
+Version: 0.1
+ License: Open
+ Text Domain: web_interactivity_blank_template 
 */
-
-
-@import url("css/normalize.css");
-@import url("css/skeleton.css");
-
-.post-feature img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-  margin-top: 25px;
-}
