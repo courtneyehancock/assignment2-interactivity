@@ -10,7 +10,13 @@ Version: 0.1
 
 header{
   background: black;
-  opacity: .5;
+  color: white;
+  padding: 2%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
 }
 
 /*=======================
