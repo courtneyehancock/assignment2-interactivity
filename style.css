@@ -14,7 +14,7 @@ Version: 0.1
 .button {
   padding: 1%;
   background-color: #fade85;
-  margin: 0 auto;
+  max-width: 10%;
 }
 
 .button a {

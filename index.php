@@ -1,7 +1,7 @@
 <?php get_header(); ?>  
 
 <!-- Wordpress Loop -->  
-<div class="posts container">
+<div class="container">
 	<div class="row">
 		<?php
 		if(have_posts()){
