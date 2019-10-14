@@ -13,8 +13,8 @@ Version: 0.1
 =========================*/
 .container {
   margin: 0 auto;
-  padding: 15%;
-  background-color: #f2f2f2;
+  padding: 0 15%;
+  background-color: #fefebe;
 }
 .button {
   padding: 1%;
