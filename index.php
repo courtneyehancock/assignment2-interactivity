@@ -4,13 +4,13 @@
 <div class="container">
 	<div class="row">
 		<?php
-		If(have_posts()){
-			While(have_posts()){
-				The_post(); ?>
+		if(have_posts()){
+			while(have_posts()){
+				the_post(); ?>
 				<div class="col-md-3">
           <h3><?php the_title(); ?></h3>
 
-          <p><?php echo "Published: " . Get_the_date(); echo " | "; echo "Written by: " . Get_the_author(); ?></p>
+          <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author(); ?></p>
 
           <?php the_excerpt(); ?>
 
