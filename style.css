@@ -12,8 +12,8 @@ Version: 0.1
     universal styling
 =========================*/
 .container {
-  margin: 0 auto;
-  padding: 0 15%;
+  margin: 2% auto;
+  padding: 0 10%;
   background-color: #fefebe;
 }
 .button {
@@ -44,6 +44,7 @@ p {
 .entry-title {
   text-transform: uppercase;
   color: #700353;
+  padding-top: 1%;
 }
 /*=======================
           header
