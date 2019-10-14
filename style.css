@@ -12,8 +12,9 @@ Version: 0.1
     universal styling
 =========================*/
 .button {
-  padding: 2%;
+  padding: 1%;
   background-color: #fade85;
+  margin: 1%;
 }
 
 .button a {
