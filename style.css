@@ -11,7 +11,11 @@ Version: 0.1
 /*=======================
     universal styling
 =========================*/
-
+.button {
+  padding: 2%;
+  color: white;
+  background-color: #fade85;
+}
 /*=======================
           header
 =========================*/
