@@ -27,11 +27,16 @@ Version: 0.1
 span {
   font-weight: bold;
 }
+
+p {
+  color: #121212;
+}
 /*=======================
           home page
 =========================*/
 .title {
   text-transform: uppercase;
+  color: #700353;
 }
 /*=======================
           header
@@ -55,5 +60,5 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-style: italic;
-  color: #fade85;
+  color: #ffcc44;
 }
