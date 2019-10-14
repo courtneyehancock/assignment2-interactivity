@@ -54,4 +54,6 @@ header a {
 footer {
   margin: 0 auto;
   text-align: center;
+  font-style: italic;
+  color: #fade85;
 }
