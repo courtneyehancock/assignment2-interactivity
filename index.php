@@ -16,7 +16,7 @@
 
           <p> <?php the_excerpt(); ?> </p>
 
-          <a class="button" href="<?php the_permalink(); ?>">Read More</a>
+          <p class="button"><a href="<?php the_permalink(); ?>">Read More</a></p>
         </div>
       <?php } //end while loops
     } //end if PDOStatement
