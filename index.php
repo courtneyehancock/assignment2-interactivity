@@ -12,7 +12,7 @@
 
           <?php the_post_thumbnail('medium'); ?>
 
-          <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author(); ?></p>
+          <p><?php echo "<span class='bold'>Published: </span>" . get_the_date(); echo " | "; echo "<span class='bold'>Written by: </span>" . get_the_author(); ?></p>
 
           <p> <?php the_excerpt(); ?> </p>
 
