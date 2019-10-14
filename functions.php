@@ -37,5 +37,4 @@ Adds style sheet and JavaScript files
 
   add_theme_support('custom-header', $custom_image_header);
 
-  ?>
 ?>
