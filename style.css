@@ -43,7 +43,7 @@ p {
           header
 =========================*/
 header{
-  background: #ffcc44;
+  background: #fade85;
   color: white;
   padding: 1%;
 }
@@ -61,5 +61,5 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-style: italic;
-  color: #ffcc44;
+  color: #fade85;
 }
