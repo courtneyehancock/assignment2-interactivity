@@ -11,7 +11,7 @@ Version: 0.1
 /*=======================
     universal styling
 =========================*/
-.button {
+.button a{
   padding: 2%;
   color: white;
   background-color: #fade85;
