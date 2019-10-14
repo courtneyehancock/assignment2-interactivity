@@ -11,3 +11,12 @@ Version: 0.1
 header{
   background: black;
 }
+
+/*=======================
+          footer
+=========================*/
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
