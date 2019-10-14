@@ -1,27 +1,27 @@
 <?php get_header(); ?>  
 
 <!-- Wordpress Loop -->  
-<div class="container"> 
-  <div class="row"> 
-    <?php 
-    if(have_posts()){ 
-      while(have_posts()){ 
-        the_post();?> 
+<div class="container">
+	<div class="row">
+		<?php
+		If(have_posts()){
+			While(have_posts()){
+				The_post(); ?>
+				<div class="col-md-3">
+          <h3><?php the_title(); ?></h3>
 
-    <div class="col-md-3"> 
-      <h3 class="title"> <?php the_title(); ?></h3>  
-      <?php the_post_thumbnail('medium'); ?>
-      <p> <?php echo "Published: " . get_the_date();?> </p> 
-      <p> <?php echo "Written By: ". get_the_author(); ?> </p> 
+          <p><?php echo "Published: " . Get_the_date(); echo " | "; echo "Written by: " . Get_the_author(); ?></p>
 
-      <p> <?php the_excerpt();?> </p>  
+          <?php the_excerpt(); ?>
 
-      <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>"> Read More </a> 
-    </div> <?php 
+          <a class="btn btn-primary btn-small" href="<?php the_permalink(); ?>">Read More</a>
+        </div>
+      <?php } //end while loops
+    } //end if PDOStatement
+    ?>
+  </div>
+</div>
 
-      }//end of the while loop 
-    }//end of the if statement      ?> 
-   </div> 
- </div>
+
 
       <?php get_footer(); ?>
