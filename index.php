@@ -8,13 +8,15 @@
 			while(have_posts()){
 				the_post(); ?>
 				<div class="col-md-3">
-          <h3><?php the_title(); ?></h3>
+          <h3 class="title"><?php the_title(); ?></h3>
+
+          <?php the_post_thumbnail('medium'); ?>
 
           <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author(); ?></p>
 
-          <?php the_excerpt(); ?>
+          <p> <?php the_excerpt(); ?> </p>
 
-          <a class="btn btn-primary btn-small" href="<?php the_permalink(); ?>">Read More</a>
+          <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More</a>
         </div>
       <?php } //end while loops
     } //end if PDOStatement
