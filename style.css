@@ -14,14 +14,19 @@ Version: 0.1
 .button {
   padding: 1%;
   background-color: #fade85;
+  margin-right: 0;
 }
 
 .button a {
   color: black;
   text-decoration: none;
 }
+
+span {
+  font-weight: bold;
+}
 /*=======================
-          header
+          home page
 =========================*/
 .posts {
   display: flex;
