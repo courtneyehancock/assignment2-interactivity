@@ -11,10 +11,13 @@ Version: 0.1
 /*=======================
     universal styling
 =========================*/
-.button a{
+.button {
   padding: 2%;
-  color: white;
   background-color: #fade85;
+}
+
+.button a {
+  color: white;
 }
 /*=======================
           header
