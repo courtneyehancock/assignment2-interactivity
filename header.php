@@ -7,13 +7,16 @@
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" /> 
 
   <?php wp_head();?> 
+
 </head>  
   <body> 
     <div class="container"> 
       <div class="row"> 
         <div class="col-lg-3"> 
           <header> 
+
           <h1> <a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></h1> 
+
           </header> 
         </div> 
       </div> 
