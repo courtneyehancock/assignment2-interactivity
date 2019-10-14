@@ -34,7 +34,8 @@ p {
 /*=======================
           home page
 =========================*/
-.title {
+.title,
+.entry-title {
   text-transform: uppercase;
   color: #700353;
 }
