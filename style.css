@@ -8,6 +8,17 @@ Version: 0.1
  Text Domain: assignment2-hancock-courtney
 */
 
+/*=======================
+    universal styling
+=========================*/
+* {
+  width: 0;
+  margin:0 ;
+}
+
+/*=======================
+          header
+=========================*/
 header{
   background: #fade85;
   color: white;
