@@ -23,4 +23,19 @@ Adds style sheet and JavaScript files
 
   add_action('wp-enqueue_scripts', 'custom_theme_scripts');
 
+  /*-------------------------------------
+
+  Custom Header Logo -- creates the option to add a header image in the WordPress dashboard
+
+  -----------------------------------------*/
+
+  $custom_image_header = array(
+    'width' => 225,
+    'height' => 120,
+    'uploads' => true,
+  );
+
+  add_theme_support('custom-header', $custom_image_header);
+
+  ?>
 ?>
