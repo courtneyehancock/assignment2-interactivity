@@ -30,11 +30,6 @@ span {
 /*=======================
           home page
 =========================*/
-.posts {
-  display: flex;
-  max-width: 30%;
-}
-
 .title {
   text-transform: uppercase;
 }
