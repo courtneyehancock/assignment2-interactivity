@@ -60,7 +60,13 @@ header a {
   text-decoration: none;
   color: white;
 }
+/*=======================
+          navigation
+=========================*/
 
+.top-menu li {
+  display: inline;
+}
 /*=======================
           footer
 =========================*/
