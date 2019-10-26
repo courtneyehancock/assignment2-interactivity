@@ -37,4 +37,22 @@ Adds style sheet and JavaScript files
 
   add_theme_support('custom-header', $custom_image_header);
 
+  /*-------------------------------------
+
+  Add menus to theme
+
+  -----------------------------------------*/
+
+  function register_my_menus(){
+    register_nav_menus(
+      array(
+        'top-menu' => ('Top Menu'),
+        'footer-left' => ('Left footer menu'),
+        'footer-middle' => ('Middle footer menu'),
+        'footer-right' => ('Right footer menu')
+        )
+      );
+  }
+
+  add_action('init', 'register_my_menus');
 ?>
