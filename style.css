@@ -11,10 +11,14 @@ Version: 0.1
 /*=======================
     universal styling
 =========================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   margin: 2% auto;
   padding: 2% 10%;
-  background-color: #fadadd;
 }
 
 .button {
@@ -44,7 +48,7 @@ p {
 .title,
 .entry-title {
   text-transform: uppercase;
-  color: #700353;
+  color: #121212;
   padding: 1% 0;
 }
 /*=======================
