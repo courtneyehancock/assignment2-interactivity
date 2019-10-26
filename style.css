@@ -59,17 +59,18 @@ header{
   color: white;
   padding: 1%;
 }
-
-header a {
-  text-decoration: none;
-  color: white;
-}
 /*=======================
           navigation
 =========================*/
 
-.top-menu li {
+.top-menu-class li {
   display: inline;
+}
+
+.top-menu-class a {
+  text-decoration: none;
+  color: #121212;
+  margin: 0 1rem;
 }
 /*=======================
           footer
