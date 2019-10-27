@@ -79,7 +79,8 @@ footer p {
   padding: 2%;
 }
 
-widget-bottom-left img, {
+widget-bottom-middle img,
+widget-bottom-left img {
   min-width: 300px;
   min-height: 200px;
   object-fit: cover;
