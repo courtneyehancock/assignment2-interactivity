@@ -10,11 +10,7 @@ get_header(); ?>
   <main>
     <!--Hero Image Section-->
 
-    <div class="row"
-      <div class="col-md-12">
-        <?php dynamic_sidebar('hero-image'); ?>
-      </div>
-    </div>
+    <?php dynamic_sidebar('hero-image'); ?>
 
     <div class="container">
       <!--About Us Section-->
