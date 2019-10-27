@@ -15,7 +15,7 @@ get_header(); ?>
     <div class="container">
       <!--About Us Section-->
 
-      <div class="row"
+      <div class="row">
         <div class="col-md-12">
           <?php dynamic_sidebar('about-us'); ?>
         </div>
