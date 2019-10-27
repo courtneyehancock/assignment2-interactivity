@@ -77,6 +77,10 @@ header{
 =========================*/
 
 footer {
-  color: #fff;
+  color: #ffffff;
   background-color: #121212;
+}
+
+footer p {
+  color: #ffffff;
 }
