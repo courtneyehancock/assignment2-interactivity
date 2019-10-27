@@ -21,7 +21,7 @@ Adds style sheet and JavaScript files
 
   }
 
-  add_action('wp-enqueue_scripts', 'custom_theme_scripts');
+  add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
   /*-------------------------------------
 
