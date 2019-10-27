@@ -45,7 +45,7 @@ p {
           header
 =========================*/
 header{
-  background: #fade85;
+  background: #00529b;
   color: #121212;
   padding: 1%;
 }
@@ -55,6 +55,7 @@ header{
 
 .top-menu-class li {
   display: inline;
+  justify-content: center;
 }
 
 .top-menu-class a {
