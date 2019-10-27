@@ -77,8 +77,6 @@ header{
 =========================*/
 
 footer {
-  margin: 0 auto;
-  text-align: center;
-  font-style: italic;
-  color: #121212;
+  color: #fff;
+  background-color: #121212;
 }
