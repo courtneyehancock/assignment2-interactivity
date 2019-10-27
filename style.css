@@ -11,16 +11,6 @@ Version: 0.1
 /*=======================
     universal styling
 =========================*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 2% auto;
-  padding: 2% 5%;
-}
-
 .button {
   padding: 2%;
   background-color: #ffffff;
