@@ -121,7 +121,7 @@ Adds style sheet and JavaScript files
       'description'   => 'Right sidebar widget area',
       'before_widget' => '<div class="widget-right-sidebar">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="right-sidebar">',
+      'before_title'  => '<h3 class="right-sidebar-widget-title">',
       'after_title'   => '</h3>'
     ));
 

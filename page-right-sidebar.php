@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home Page Layout
+Template Name: Right Sidebar
 Template Post Type: page, post
 */
 
