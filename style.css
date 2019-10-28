@@ -42,8 +42,12 @@ p {
   padding: 1% 0;
 }
 
-widget-about-us {
+.widget-about-us {
   margin: 40px 0;
+}
+
+.soliloquy-code {
+  margin: 0 auto;
 }
 /*=======================
           header
@@ -68,12 +72,6 @@ header{
 }
 
 /*=======================
-          home page style
-=========================*/
-widget-about-us {
-  margin: 40px 0;
-}
-/*=======================
           footer
 =========================*/
 
@@ -90,7 +88,7 @@ footer p {
   padding: 2%;
 }
 
-widget-bottom-middle img {
+.widget-bottom-middle img {
   min-width: 300px;
   min-height: 200px;
   object-fit: cover;

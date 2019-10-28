@@ -14,7 +14,7 @@
 <body>
   <header>
     <div class="container-fluid">
-      <div class="row sticky-top">
+      <div class="row">
         <div class="col-lg-3">
           <?php if(get_header_image() == ' '){ ?>
             <h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></h1><?php
