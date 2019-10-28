@@ -1,23 +1,19 @@
-<div class="container">
-  <div class="row">
-    <div class="one-third column">
-      <?php wp_nav_menu(array(
-        'theme_location' => 'footer-menu',
-        'container-class' => 'menu-footer'
-        ));
-      ?>
+  <footer>
+    <div class="container-fluid d-flex">
+      <div class="row">
+        <div class="col-sm-4">
+          <?php dynamic_sidebar('bottom-left-home-page'); ?>
+        </div>
+        <div class="col-sm-4">
+          <?php dynamic_sidebar('bottom-middle-home-page'); ?>
+        </div>
+        <div class="col-sm-4">
+          <?php dynamic_sidebar('bottom-right-home-page'); ?>
+        </div>
+      </div>
     </div>
-    <div class="one-third column">
-      <?php dynamic_sidebar('middle-footer'); ?>
-    </div>
-    <div class="one-third column">
-      <?php dynamic_sidebar('right-footer'); ?>
-    </div>
-  </div>
-</div>
 
-
-<?php wp_footer(); ?>
-
+  </footer>
+  <?php wp_footer(); ?>
 </body>
 </html>
