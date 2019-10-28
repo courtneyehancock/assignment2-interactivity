@@ -1,6 +1,6 @@
   <footer>
     <div class="container">
-      <div class="row footer-class">
+      <div class="row footer-class d-flex align-items-center">
         <div class="col-md-4">
           <?php dynamic_sidebar('bottom-left-home-page'); ?>
         </div>
