@@ -1,4 +1,4 @@
-<?php dynamic_sidebar('sidebar'); ?>
+<?php dynamic_sidebar('right-sidebar'); ?>
 
 <?php if(is_page_template('page-right-sidebar.php')){
   dynamic_sidebar('right-sidebar');
