@@ -1,5 +1,4 @@
   <footer>
-    <div class="container">
       <div class="row">
         <div class="col-sm-4">
           <?php dynamic_sidebar('bottom-left-home-page'); ?>
@@ -13,7 +12,6 @@
           <?php dynamic_sidebar('bottom-right-home-page'); ?>
         </div>
       </div>
-    </div>
 
   </footer>
   <?php wp_footer(); ?>
