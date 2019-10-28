@@ -116,12 +116,12 @@ Adds style sheet and JavaScript files
 
     //Sidebar Widget
     register_sidebar(array(
-      'name'          => ('Sidebar'),
-      'id'            => 'sidebar',
-      'description'   => 'Sidebar widget area',
-      'before_widget' => '<div class="widget-sidebar">',
+      'name'          => ('Right Sidebar'),
+      'id'            => 'right-sidebar',
+      'description'   => 'Right sidebar widget area',
+      'before_widget' => '<div class="widget-right-sidebar">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
+      'before_title'  => '<h3 class="right-sidebar">',
       'after_title'   => '</h3>'
     ));
 
