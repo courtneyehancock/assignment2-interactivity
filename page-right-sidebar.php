@@ -1,5 +1,4 @@
 <?php
-
 /*
 Template Name: Home Page Layout
 Template Post Type: page, post
