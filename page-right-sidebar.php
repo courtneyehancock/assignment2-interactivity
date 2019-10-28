@@ -1,7 +1,8 @@
 <?php
+
 /*
-Template Name: Right Sidebar
-Template Post Type: page, post      >>we only want this to show up on our pages
+Template Name: Home Page Layout
+Template Post Type: page, post
 */
 
 get_header(); ?>
